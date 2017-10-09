@@ -10,10 +10,11 @@
     
     <% @articles.each do |article| %>
         <tr>
-            <th><%= article.title %></th>
-            <th><%= article.description %></th>
-            <th><%= link_to 'edit', edit_article_path(article) %></th>
-            <th><%= link_to 'show', article_path(article) %></th>
+            <td><%= article.title %></td>
+            <td><%= article.description %></td>
+            <td><%= link_to 'edit', edit_article_path(article) %></td>
+            <td><%= link_to 'show', article_path(article) %></td>
+            <td><%= link_to 'delete', article_path(article), method: :delete, data: {confirm: "are you sure"} %></td>
         </tr>
     <% end %>
     
