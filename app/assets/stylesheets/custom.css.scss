@@ -30,7 +30,7 @@ $navbar-default-bg: rgb(17, 170, 227);
 }
 
 .footer {
-    word-spacing: 50px;
+    word-spacing: 10px;
     border-top: 1px solid rgb(195, 176, 145);
     color: rgb(195, 176, 145);
 }
@@ -46,4 +46,13 @@ $navbar-default-bg: rgb(17, 170, 227);
 
 .link{
     font-size: 1.4em;
+}
+
+.article-actions{
+    border-top: 2px solid rgb(103, 166, 224);
+    padding-top: 5px;
+}
+
+.description{
+    margin-top:0;
 }
